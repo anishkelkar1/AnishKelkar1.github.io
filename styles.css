@@ -53,8 +53,8 @@ section {
 .about-container {
     display: flex;
     align-items: center;
-    justify-content: center;  /* Centers items horizontally */
-    text-align: center;       /* Centers text within its box */
+    justify-content: center;  
+    text-align: center;      
 }
 
 .about-text, .about-image {
@@ -62,9 +62,9 @@ section {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;  /* Centers content vertically */
-    align-items: center;      /* Centers content horizontally */
-    padding: 20px;
+    justify-content: center;  
+    align-items: center;      
+    padding: 0px;
 }
 
 .about-text {
@@ -77,8 +77,8 @@ section {
 }
 
 .arrow {
-    margin-top: 100px;
-    height: 100px;
+    margin-top: 0px;
+    height: 80px;
   }
 
 .gallery {
