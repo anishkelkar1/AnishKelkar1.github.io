@@ -86,10 +86,28 @@ section {
     height: 80px;
   }
 
- .gallery {
+  .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+
+.portfolio-text {
+    max-width: 70%;
+    text-align: left;
+}
+
+.portfolio-item img {
+    max-width: 30%;
 }
 
 .gallery a {
