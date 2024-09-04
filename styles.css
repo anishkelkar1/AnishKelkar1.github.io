@@ -87,24 +87,26 @@ section {
     height: 80px;
   }
 
-  .gallery {
+.gallery {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
 }
 
 .portfolio-item {
+    flex-basis: calc(50% - 10px); 
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; 
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
+    text-align: center; 
 }
-
 
 .portfolio-text {
     max-width: 70%;
-    text-align: left;
+    text-align: center;
 }
 
 .gallery a {
@@ -114,7 +116,7 @@ section {
 } 
 
 .gallery img {
-    max-width: 30%;
+    max-width: 70%;
     border: 2px solid #b9b5b5; 
 }
 
