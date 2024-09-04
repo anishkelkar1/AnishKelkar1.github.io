@@ -116,8 +116,10 @@ section {
 } 
 
 .gallery img {
-    max-width: 70%;
-    border: 2px solid #b9b5b5; 
+    width: 400px;   
+    height: 300px;  
+    object-fit:fill; 
+    border: 2px solid #b9b5b5;
 }
 
 footer {
