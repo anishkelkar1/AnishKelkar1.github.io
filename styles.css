@@ -99,8 +99,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center; 
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
+    border: 1px solid #ccc;
+    /* padding: 20px; */
     text-align: center; 
 }
 
@@ -111,12 +111,12 @@ section {
 
 .gallery a {
     flex-basis: calc(50% - 10px); 
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     text-align: center;
 } 
 
 .gallery img {
-    width: 400px;   
+    width: 350px;   
     height: 300px;  
     object-fit:fill; 
     border: 2px solid #b9b5b5;
