@@ -49,7 +49,7 @@ section {
 }
 
 #home {
-    background: #f4f4f4;
+    background: var(--secondary-color);
     text-align: center;
 }
 
@@ -59,16 +59,12 @@ section {
     text-align: center;
 }
 
-#about, #portfolio, #contact {
-    background: #fff;
-    padding: 20px;
-}
-
 .about-container {
     display: flex;
     align-items: center;
     justify-content: center;  
-    text-align: center;      
+    text-align: center; 
+    padding: var(--padding);     
 }
 
 .about-text, .about-image {
@@ -93,50 +89,54 @@ section {
 .arrow {
     margin-top: 0px;
     height: 80px;
-  }
+}
 
 .portfolio {
     display: flex;
-    justify-content:space-around;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
-    align-content: center;
+    margin: var(--padding) 0;
 }
 
 .portfolio-item {
     border: 1px solid #ccc;
     text-align: center;
-    display: flex;
-    justify-content: center;
+    padding: var(--padding);
     margin: 10px;
+    width: 500px; 
 }
 
-.portfolio-text {
-    max-width: 70%;
-    text-align: center;
-}
-
-/* .portfolio a {
-    flex-basis: calc(50% - 10px); 
-    margin-bottom: 20px;
-    text-align: center;
-}  */
-
-.portfolio img {
+.portfolio-item img {
     width: 350px;   
     height: 300px;  
-    object-fit:fill; 
-    border: 2px solid #b9b5b5;
+    border: 2px solid var(--border-color);
+    object-fit:fill;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: var(--main-color);
+    color: var(--text-color);
+    padding: 10px;
     text-align: left;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    position:relative;
-    width: 100%;
-    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: calc(50% - 40px);
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-item {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
 }
