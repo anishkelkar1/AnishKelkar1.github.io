@@ -89,19 +89,18 @@ section {
 
 .portfolio {
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 .portfolio-item {
     border: 1px solid #ccc;
     text-align: center;
     display: flex;
-    /* flex-basis: calc(50% - 10px); 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly; 
-    padding: 20px;
-      */
+    justify-content: center;
+    margin: 10px;
 }
 
 .portfolio-text {
@@ -109,11 +108,11 @@ section {
     text-align: center;
 }
 
-.portfolio a {
+/* .portfolio a {
     flex-basis: calc(50% - 10px); 
     margin-bottom: 20px;
     text-align: center;
-} 
+}  */
 
 .portfolio img {
     width: 350px;   
