@@ -87,21 +87,21 @@ section {
     height: 80px;
   }
 
-.gallery {
+.portfolio {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
 }
 
 .portfolio-item {
-    flex-basis: calc(50% - 10px); 
+    border: 1px solid #ccc;
+    text-align: center;
+    display: flex;
+    /* flex-basis: calc(50% - 10px); 
     display: flex;
     align-items: center;
-    justify-content: center; 
-    border: 1px solid #ccc;
-    /* padding: 20px; */
-    text-align: center; 
+    justify-content: space-evenly; 
+    padding: 20px;
+      */
 }
 
 .portfolio-text {
@@ -109,13 +109,13 @@ section {
     text-align: center;
 }
 
-.gallery a {
+.portfolio a {
     flex-basis: calc(50% - 10px); 
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px;
     text-align: center;
 } 
 
-.gallery img {
+.portfolio img {
     width: 350px;   
     height: 300px;  
     object-fit:fill; 
