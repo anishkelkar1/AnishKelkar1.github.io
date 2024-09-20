@@ -100,10 +100,10 @@ section {
 }
 
 .portfolio-item {
-    border: 1px solid #ccc;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
     text-align: center;
-    padding: var(--padding);
-    margin: 10px;
+    /* margin: 10px; */
     width: 500px; 
 }
 
@@ -111,6 +111,7 @@ section {
     width: 350px;   
     height: 300px;  
     border: 2px solid var(--border-color);
+    border-radius: 10px;
     object-fit:fill;
 }
 
