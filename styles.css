@@ -103,8 +103,10 @@ section {
     border: 2px solid var(--border-color);
     border-radius: 10px;
     text-align: center;
+    background-color: #f5f3f3;
     /* margin: 10px; */
-    width: 500px; 
+    width: 475px; 
+    height: 525px;; 
 }
 
 .portfolio-item img {
