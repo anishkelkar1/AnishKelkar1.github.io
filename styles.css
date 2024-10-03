@@ -100,21 +100,27 @@ section {
 }
 
 .portfolio-item {
-    border: 2px solid var(--border-color);
-    border-radius: 10px;
-    text-align: center;
-    background-color: #f5f3f3;
-    /* margin: 10px; */
-    width: 475px; 
-    height: 525px;; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
-.portfolio-item img {
-    width: 350px;   
-    height: 300px;  
-    border: 2px solid var(--border-color);
+.portfolio-text {
+    width: 70%;
+    padding-right: 20px;
+}
+
+.portfolio-image {
+    width: 30%;
+}
+
+.portfolio-image img {
+    max-width: 100%;
+    height: auto;
     border-radius: 10px;
-    object-fit:fill;
+    object-fit: cover;
 }
 
 footer {
