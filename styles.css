@@ -103,8 +103,12 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 20px;
 }
 
 .portfolio-text {
