@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anish Kelkar</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <!-- <li><a href="blog.html">Blog</a></li> -->
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -21,68 +23,266 @@
     <section id="home">
         <div class="about-container">
             <div class="about-text">
-                <h2>Hi, I'm Anish!</h2>
-                <p>Check out my coding portfolio or my blog.</p>
+                <h1>Anish Kelkar</h1>
+                <h2>AI Software Engineer</h2>
+                <p>M.S. in Computer Science Student at Northeastern University</p>
+                <div class="social-links">
+                    <a href="https://github.com/AnishKelkar1" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:kelkaranish1@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/anishkelkar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
             </div>
             <div class="about-image">
-                <img src="Cruise Pic.png" alt="Anish Kelkar picture">
+                <img src="Cruise Pic.png" alt="Anish Kelkar">
             </div>
         </div>
-        <a href="#portfolio" aria-label="Go to Portfolio section">
+        <a href="#about" aria-label="Go to About section">
             <img class="arrow" src="down-arrow.gif" alt="Downward arrow">
         </a>
     </section>
 
-    <section id="portfolio">
-        <h1>Portfolio</h1>
-        <div class="portfolio">            
-            <article class="portfolio-item">
-                <div class="portfolio-text">
-                    <h3>AI Flashcard Generator</h3>
-                    <p>Built a flashcard generator connected to ChatGPT via an API.</p>
-                    <p><em><b>Frontend:</b> Next.js, React  |  <b>Backend:</b> Firebase</em></p>
+    <section id="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-details">
+                <p>I'm a Computer Science & AI graduate student at Northeastern University with a background in Business Administration and International Relations from USC. My passion lies in developing AI-driven applications and solutions that solve real-world problems.</p>
+                
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>C/C++</li>
+                            <li>Java</li>
+                            <li>HTML/CSS</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li>React</li>
+                            <li>Next.js</li>
+                            <li>Node.js</li>
+                            <li>Firebase</li>
+                            <li>AWS</li>
+                            <li>Material-UI</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li>Git/GitHub</li>
+                            <li>VS Code</li>
+                            <li>Visual Studio</li>
+                            <li>Jira</li>
+                            <li>UiPath (RPA)</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="portfolio-image">
-                    <img src="ai flashcards pic.png" alt="AI Flashcard Generator app screenshot">
-                </div>
-            </article>
-
-            <article class="portfolio-item">
-                <div class="portfolio-text">
-                    <h3>AI Rate My Professor</h3>
-                    <p>Utilized Retrieval-Augmented Generation(RAG) to leverage external knowledge bases for professor ratings.</p>
-                    <p><em><b>Frontend:</b> Next.js, React  |  <b>Backend:</b> OpenAI API, Pinecone</em></p>
-                </div>
-                <div class="portfolio-image">
-                    <img src="ai-rmp-img.png" alt="AI Rate My Professor app screenshot">
-                </div>
-            </article>
-            
-            <article class="portfolio-item">
-                <div class="portfolio-text">
-                    <h3>Inventory Tracker</h3>
-                    <p>Enabled users can add items, monitor quantities, & remove items when sold or used.</p>
-                    <p><em><b>Frontend:</b> Next.js, React, Material-UI  |  <b>Backend:</b> Firebase</em></p>
-                </div>
-                <div class="portfolio-image">
-                    <img src="inventory tracker.png" alt="Inventory Tracker app screenshot">
-                </div>
-            </article>
+            </div>
         </div>
     </section>
 
-    <!-- <section id="hobbies">
-        <h2>Hobbies</h2>
-        <p>[hobbies coming soon...]</p>
-    </section> -->
+    <section id="experience">
+        <div class="section-container">
+            <h2 class="section-title">Education & Experience</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <p>May 2026</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Northeastern University</h3>
+                        <p class="timeline-subtitle">M.S. in Computer Science and Artificial Intelligence</p>
+                        <p>Boston, MA | GPA: 4.0/4.0</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <p>May 2023</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>University of Southern California</h3>
+                        <p class="timeline-subtitle">B.S. in Business Administration and International Relations</p>
+                        <p>Los Angeles, CA</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <p>June - Sept 2024</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Headstarter</h3>
+                        <p class="timeline-subtitle">AI Software Engineer Fellow</p>
+                        <p>New York, NY</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <p>Aug - Nov 2023</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Brookfield Renewable</h3>
+                        <p class="timeline-subtitle">IT Business Analyst Intern</p>
+                        <p>New York, NY</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <p>May - Aug 2022</p>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Snap Inc. (Snapchat)</h3>
+                        <p class="timeline-subtitle">A.I. Automation Intern</p>
+                        <p>Santa Monica, CA</p>
+                        <ul>
+                            <li>Automated 10+ key projects using robotic process automation (RPA), saving 250+ hours per week</li>
+                            <li>Built and integrated a Jira form for task automation requests, boosting task completion by 120%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="achievements">
+                <h3>Achievements</h3>
+                <div class="achievement-item">
+                    <h4>InnovAIte Hackathon - 1st Place Winner</h4>
+                    <p>February 2025</p>
+                    <p>Built a "dating app" for personalized vacation spots within 48 hours at Northeastern's AI hackathon, attracting over 100+ sign-ups within 24 hours.</p>
+                </div>
+                <div class="achievement-item">
+                    <h4>Google Student Developer Club</h4>
+                    <p>January 2025 - Present</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to contact me at <a href="mailto:kelkaranish1@gmail.com">kelkaranish1@gmail.com</a>.</p>
-    </section> -->
+    <section id="portfolio">
+        <div class="section-container">
+            <h2 class="section-title">Portfolio</h2>
+            <div class="portfolio">            
+                <article class="portfolio-item">
+                    <div class="portfolio-text">
+                        <h3>AI Customer Support Chatbot</h3>
+                        <p>Built a chatbot connected to ChatGPT via an API, resulting in enhanced customer support through AI capabilities.</p>
+                        <p><em><b>Technologies:</b> OpenAI API, JavaScript, Next.js, Git</em></p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/AnishKelkar1" target="_blank" class="btn">GitHub <i class="fab fa-github"></i></a>
+                            <a href="#" class="btn">Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="ai-chatbot.png" alt="AI Customer Support Chatbot screenshot">
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <div class="portfolio-text">
+                        <h3>AI Flashcard Generator</h3>
+                        <p>Built a full-stack web application that generates flashcards connected to ChatGPT via an API. Improved studying efficiency for 10+ students by accelerating the flashcard creation process.</p>
+                        <p><em><b>Technologies:</b> React, Next.js, Firebase, Material-UI, Git</em></p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/AnishKelkar1" target="_blank" class="btn">GitHub <i class="fab fa-github"></i></a>
+                            <a href="#" class="btn">Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="ai flashcards pic.png" alt="AI Flashcard Generator app screenshot">
+                    </div>
+                </article>
+
+                <article class="portfolio-item">
+                    <div class="portfolio-text">
+                        <h3>AI Rate My Professor</h3>
+                        <p>Utilized Retrieval-Augmented Generation (RAG) to leverage external knowledge bases for professor ratings, providing personalized and accurate information for students.</p>
+                        <p><em><b>Technologies:</b> Next.js, React, OpenAI API, Pinecone</em></p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/AnishKelkar1" target="_blank" class="btn">GitHub <i class="fab fa-github"></i></a>
+                            <a href="#" class="btn">Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="ai-rmp-img.png" alt="AI Rate My Professor app screenshot">
+                    </div>
+                </article>
+                
+                <article class="portfolio-item">
+                    <div class="portfolio-text">
+                        <h3>Inventory Tracker</h3>
+                        <p>Developed a system that enables users to add items, monitor quantities, and remove items when sold or used, improving inventory management efficiency.</p>
+                        <p><em><b>Technologies:</b> Next.js, React, Material-UI, Firebase</em></p>
+                        <div class="portfolio-links">
+                            <a href="https://github.com/AnishKelkar1" target="_blank" class="btn">GitHub <i class="fab fa-github"></i></a>
+                            <a href="#" class="btn">Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="portfolio-image">
+                        <img src="inventory tracker.png" alt="Inventory Tracker app screenshot">
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:kelkaranish1@gmail.com">kelkaranish1@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/AnishKelkar1" target="_blank">github.com/AnishKelkar1</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/anishkelkar" target="_blank">linkedin.com/in/anishkelkar</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <a href="https://www.anishkelkar.com" target="_blank">www.anishkelkar.com</a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Anish Kelkar.</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Anish Kelkar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/AnishKelkar1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:kelkaranish1@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/anishkelkar" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
     </footer>    
 
     <script src="script.js"></script>
